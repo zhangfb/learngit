@@ -1,0 +1,12 @@
+git init
+git add
+git status
+Git commit -m "*"
+Git diff *.txt
+Git reset --hard HEAD/commit_id
+Git log /--pretty=oneline
+Git reflog
+Git checkout -- file #it will discard the modifications in the working zone.
+Git reset HEAD file #it will withdraw the modifications in the staged zone, putting it to the working zone. 
+Git rm file #delete file in the working zone.
+Git checkout -- file #recover file from the repo to the working zone. Notice you may lose current info in file for the recovered file is the last commited version
